@@ -10,7 +10,9 @@
   "bin": {
     "arnoldjs": "./bin/arnoldjs"
   },
-  "dependencies": {},
+  "dependencies": {
+    "node-beautify": "0.0.5"
+  },
   "engines": {
     "node": "*"
   }
