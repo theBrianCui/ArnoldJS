@@ -1,0 +1,17 @@
+{
+  "author": "analytalica",
+  "name": "arnoldjs",
+  "description": "Arnold Schwarzenegger programming language that transpiles into JavaScript. Inspired by ArnoldC.",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/analytalica/ArnoldJS"
+  },
+  "main": "./lib/arnoldjs.js",
+  "bin": {
+    "arnoldjs": "./bin/arnoldjs"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
