@@ -1,0 +1,11 @@
+#! /usr/bin/env node
+
+var path = require("path");
+var fs = require("fs");
+var lib = path.join(path.dirname(fs.realpathSync(__filename)), "../lib");
+
+if(process.argv.length > 3) {
+    require(lib + "/arnoldjs.js")();
+} else {
+    console.log("usage: arnoldjs [input-file] [output-file]");
+}
