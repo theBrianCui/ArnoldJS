@@ -5,7 +5,7 @@ var fs = require("fs");
 var lib = path.join(path.dirname(fs.realpathSync(__filename)), "../lib");
 
 if(process.argv.length > 3) {
-    require(lib + "/arnoldjs.js")();
+    require(lib + "/arnoldjs.js")(process.argv[2], process.argv[3]);
 } else {
     console.log("usage: arnoldjs [input-file] [output-file]");
 }
