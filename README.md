@@ -1,5 +1,5 @@
 ArnoldJS
--------------
+==============
 
 Inspired by [ArnoldC](https://github.com/lhartikk/ArnoldC), ArnoldJS is an Arnold Schwarzenegger based programming
 language that transpiles into JavaScript. Quotes by the famous Arnold Schwarzenegger act as replacements for common
@@ -14,9 +14,13 @@ Usage:
 `arnoldjs [input-file] [output-file]`
 
 The contents of `[output-file]` will be replaced by the transpiled contents of `[input-file]`.
+Input files conventionally use the `.ajs` extension, and output files conventionally use the `.js` extension, though
+any file extensions can be provided.
 
 Example Program
 ----------------
+
+An implementation of FizzBuzz using ArnoldJS:
 
     LET'S KICK SOME ICE
     GIVE THESE PEOPLE AIR
@@ -37,6 +41,7 @@ Example Program
         I NOW KNOW WHY YOU CRY n);
     HASTA LA VISTA BABY
 
+This program can be found in `samples/fizzbuzz.ajs`. Its transpiled version can be found in `samples/fizzbuzz.js`.
 Additional examples can be found in the `samples` directory. ArnoldJS files use the `.ajs` extension, their transpiled
 versions use the `.js` file.
 
