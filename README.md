@@ -1,9 +1,11 @@
 ArnoldJS
 ==============
 
-Inspired by [ArnoldC](https://github.com/lhartikk/ArnoldC), ArnoldJS is an Arnold Schwarzenegger based programming
-language that transpiles into JavaScript. Quotes by the famous Arnold Schwarzenegger act as replacements for common
-JavaScript keywords, operators, and more. You can always use raw JavaScript inside ArnoldJS!
+Inspired by [ArnoldC](https://github.com/lhartikk/ArnoldC), ArnoldJS adds syntactic sugar to JavaScript
+that makes it less forgiving, more emotional, and even painful to write, allowing you to do less
+with more code! Quotes by Arnold Schwarzenegger act as intuitive replacements for common JavaScript keywords, 
+operators, and more. You can continue to use raw JavaScript inside ArnoldJS, and the `arnoldjs` 
+transpiler will convert ArnoldJS code into raw JavaScript.
 
 Installation:
 
@@ -20,7 +22,15 @@ any file extensions can be provided.
 Example Program
 ----------------
 
-An implementation of FizzBuzz using ArnoldJS:
+Hello, World! with ArnoldJS:
+
+    TALK TO THE HAND
+        GIVE THESE PEOPLE AIR
+            "Hello, World!"
+        ENOUGH TALK
+    TERMINATED
+
+An implementation of [FizzBuzz](http://c2.com/cgi/wiki?FizzBuzzTest) using a mix of ArnoldJS syntax and raw JavaScript:
 
     LET'S KICK SOME ICE
     GIVE THESE PEOPLE AIR
@@ -42,80 +52,114 @@ An implementation of FizzBuzz using ArnoldJS:
     HASTA LA VISTA BABY
 
 This program can be found in `samples/fizzbuzz.ajs`. Its transpiled version can be found in `samples/fizzbuzz.js`.
-Additional examples can be found in the `samples` directory. ArnoldJS files use the `.ajs` extension, their transpiled
-versions use the `.js` file.
+Additional examples can be found in the `samples` directory.
 
 Usage
 --------------
+The following phrases (case sensitive) on the left of the : are replaced by the word or character on the right.
 
 **Statements and Keywords**
 
-    "YOU SET US UP": "var",
-    "CHILL OUT": "const",
-    "NOT TO BE": "null",
-    "YOUR CLOTHES GIVE THEM TO ME": "new",
-    "I'M HERE": "this",
+`YOU SET US UP` : `var`
 
-    //Control flow statements
-    "LISTEN TO ME VERY CAREFULLY": "function",
-    "I'LL BE BACK": "return",
-    "BECAUSE I'M GOING TO SAY PLEASE": "if",
-    "YOU HAVE NO RESPECT FOR LOGIC": "else",
+`CHILL OUT` : `const`
 
-    "LET'S KICK SOME ICE": "for",
-    "COOL PARTY": "while",
-    "THE ICEMAN COMETH": "do",
-    "GET OUT": "continue",
+`NOT TO BE` : `null`
 
-    "WHAT THE HELL ARE YOU": "switch",
-    "KNOCK KNOCK": "case",
-    "GET TO THE CHOPPER": "break",
-    "I'LL KILL YOU NEXT TIME": "default",
+`YOUR CLOTHES GIVE THEM TO ME` : `new`
 
-    "TRUST ME": "try",
-    "IT'S NOT A TUMOR": "catch",
-    "PUT THE COOKIE DOWN": "finally",
+`I'M HERE` : `this`
 
-    //Others
-    "TO HELL WITH YOU": "delete",
-    "BULLSHIT": "false",
-    "HE'LL LIVE": "true"
-    
+`TO HELL WITH YOU` : `delete`
+
+**Control Flow Statements**
+
+`LISTEN TO ME VERY CAREFULLY` : `function`
+
+`I'LL BE BACK` : `return`
+
+`BECAUSE I'M GOING TO SAY PLEASE` : `if`
+
+`YOU HAVE NO RESPECT FOR LOGIC` : `else`
+
+`LET'S KICK SOME ICE` : `for`
+
+`COOL PARTY` : `while`
+
+`THE ICEMAN COMETH` : `do`
+
+`GET OUT` : `continue`
+
+`WHAT THE HELL ARE YOU` : `switch`
+
+`KNOCK KNOCK` : `case`
+
+`GET TO THE CHOPPER` : `break`
+
+`I'LL KILL YOU NEXT TIME` : `default`
+
+`TRUST ME` : `try`
+
+`IT'S NOT A TUMOR` : `catch`
+
+`PUT THE COOKIE DOWN` : `finally`
+
 **Objects and object properties**
 
-    "TALK TO THE HAND": "console.log",
-    "YOU ARE TERMINATED": "process.exit",
-    
-    "FOLLOW THE NUMBERS": ".length",
-    
-    //Array Properties/Methods
-    "GET YOUR ASS TO MARS": ".pop",
-    "HERE IS MY INVITATION": ".push",
-    
-    //Function Properties/Methods
-    "LIQUID METAL": ".bind",
-    "LET ME TRY MINE": ".call",
-    "HERE'S A COUPLE OF ACRES": ".apply"
-    
+`BULLSHIT` : `false`
+
+`HE'LL LIVE` : `true`
+
+`TALK TO THE HAND` : `console.log`
+
+`YOU ARE TERMINATED` : `process.exit`
+
+`FOLLOW THE NUMBERS` : `.length`
+
+`GET YOUR ASS TO MARS` : `.pop`
+
+`HERE IS MY INVITATION` : `.push`
+
+`LIQUID METAL` : `.bind`
+
+`LET ME TRY MINE` : `.call`
+
+`HERE'S A COUPLE OF ACRES` : `.apply`
+
 **Operators**
 
-    "STICK AROUND": "=",
-    "YOU ARE NOT YOU YOU ARE ME": "===",
-    "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE": ".",
-    "GET UP": "+",
-    "GET DOWN": "-",
-    "YOU'RE FIRED": "*",
-    "HE HAD TO SPLIT": "/",
-    "I LET HIM GO": "%",
-    "I LIED": "!",
-    "WHAT'S WRONG WITH YOUR EYES": "?",
-    "I NOW KNOW WHY YOU CRY": ":"
+`STICK AROUND` : `=`
+
+`YOU ARE NOT YOU YOU ARE ME` : `===`
+
+`I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE` : `.`
+
+`GET UP` : `+`
+
+`GET DOWN` : `-`
+
+`YOU'RE FIRED` : `*`
+
+`HE HAD TO SPLIT` : `/`
+
+`I LET HIM GO` : `%`
+
+`I LIED` : `!`
+
+`WHAT'S WRONG WITH YOUR EYES` : `?`
+
+`I NOW KNOW WHY YOU CRY` : ` :`
 
 **Commonly used characters**
 
-    "DO IT NOW": "()",
-    "IT'S SHOWTIME": "{",
-    "HASTA LA VISTA BABY": "}",
-    "GIVE THESE PEOPLE AIR": "(",
-    "ENOUGH TALK": ")",
-    "TERMINATED": ";"
+`DO IT NOW` : `()`
+
+`IT'S SHOWTIME` : `{`
+
+`HASTA LA VISTA BABY` : `}`
+
+`GIVE THESE PEOPLE AIR` : `(`
+
+`ENOUGH TALK` : `)`
+
+`TERMINATED` : `;`
