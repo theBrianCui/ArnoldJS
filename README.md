@@ -96,7 +96,7 @@ Usage
 
     "STICK AROUND": "=",
     "YOU ARE NOT YOU YOU ARE ME": "===",
-    "YOUR CLOTHES, GIVE THEM TO ME": ".",
+    "I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE": ".",
     "GET UP": "+",
     "GET DOWN": "-",
     "YOU'RE FIRED": "*",
