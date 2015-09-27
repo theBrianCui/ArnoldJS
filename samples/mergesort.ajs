@@ -1,0 +1,53 @@
+YOU SET US UP array
+STICK AROUND [2, 5, 1, 6, 8, 12, -4, 2] TERMINATED
+
+LISTEN TO ME VERY CAREFULLY mergesort GIVE THESE PEOPLE AIR input ENOUGH TALK
+    IT'S SHOWTIME
+        BECAUSE I'M GOING TO SAY PLEASE
+            (input FOLLOW THE NUMBERS > 1)
+                I'LL BE BACK merge(
+                             mergesort (input.slice(0, input
+                                        FOLLOW THE NUMBERS HE HAD TO SPLIT 2)),
+                             mergesort (input.slice(input
+                                        FOLLOW THE NUMBERS HE HAD TO SPLIT 2)))
+                TERMINATED
+        I'LL BE BACK input
+    HASTA LA VISTA BABY
+
+LISTEN TO ME VERY CAREFULLY merge
+    GIVE THESE PEOPLE AIR
+        left, right
+    ENOUGH TALK
+    IT'S SHOWTIME
+        YOU SET US UP result STICK AROUND [] TERMINATED
+        YOU SET US UP leftIndex STICK AROUND 0 TERMINATED
+        YOU SET US UP rightIndex STICK AROUND 0 TERMINATED
+        
+    COOL PARTY (leftIndex < left FOLLOW THE NUMBERS && rightIndex < right FOLLOW THE NUMBERS) IT'S SHOWTIME
+        BECAUSE I'M GOING TO SAY PLEASE (left[leftIndex] < right[rightIndex]) 
+            IT'S SHOWTIME
+                result HERE IS MY INVITATION (left[leftIndex++]) TERMINATED
+            HASTA LA VISTA BABY
+        YOU HAVE NO RESPECT FOR LOGIC 
+            IT'S SHOWTIME
+                result HERE IS MY INVITATION (right[rightIndex++]) TERMINATED
+            HASTA LA VISTA BABY
+    HASTA LA VISTA BABY
+    
+    BECAUSE I'M GOING TO SAY PLEASE (leftIndex YOU ARE NOT YOU YOU ARE ME left FOLLOW THE NUMBERS) 
+        IT'S SHOWTIME
+            result STICK AROUND result.concat(right.slice(rightIndex)) TERMINATED
+        HASTA LA VISTA BABY 
+    YOU HAVE NO RESPECT FOR LOGIC 
+      BECAUSE I'M GOING TO SAY PLEASE (rightIndex YOU ARE NOT YOU YOU ARE ME right FOLLOW THE NUMBERS) 
+        IT'S SHOWTIME
+            result STICK AROUND result.concat(left.slice(leftIndex)) TERMINATED
+        HASTA LA VISTA BABY
+    I'LL BE BACK result TERMINATED
+HASTA LA VISTA BABY
+
+TALK TO THE HAND
+    GIVE THESE PEOPLE AIR
+        mergesort(array)
+    ENOUGH TALK
+TERMINATED
