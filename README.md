@@ -9,21 +9,25 @@ Quotes by Arnold Schwarzenegger act as intuitive replacements for common JavaScr
 operators, and more. You can continue to use raw JavaScript inside ArnoldJS, and the `arnoldjs` 
 transpiler will convert ArnoldJS code into raw JavaScript.
 
-**Installation:**
+##Installation
 
-`npm install -g arnoldjs`
+ArnoldJS requires [Node.js and npm](https://nodejs.org/en/).
 
-**Usage:**
+    npm install -g arnoldjs
 
-`arnoldjs [input-file] [output-file]`
+Usage:
+
+    arnoldjs [input-file] [output-file]
 
 The contents of `[output-file]` will be replaced by the transpiled contents of `[input-file]`.
 Input files conventionally use the `.ajs` extension, and output files conventionally use the `.js` extension, though
 any file extensions can be provided.
 
+##As a loadable module
+
 ArnoldJS can also be used as a module in your code to be called programatically:
 
-`npm install --save arnoldjs`
+    npm install --save arnoldjs
 
 Usage:
 
@@ -68,7 +72,7 @@ Additional examples can be found in the `samples` directory.
 
 Usage
 --------------
-The following phrases (case sensitive) on the left of the : are replaced by the word or character on the right.
+The following phrases (case sensitive) on the left of the : are replaced by the value on the right.
 
 **Statements and Keywords**
 
