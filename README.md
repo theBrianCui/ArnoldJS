@@ -3,21 +3,33 @@ ArnoldJS
 
 Inspired by [ArnoldC](https://github.com/lhartikk/ArnoldC), ArnoldJS adds syntactic sugar to JavaScript
 that makes it less forgiving, more emotional, and even painful to write, allowing you to do less
-with more code! Quotes by Arnold Schwarzenegger act as intuitive replacements for common JavaScript keywords, 
+with more code. 
+
+Quotes by Arnold Schwarzenegger act as intuitive replacements for common JavaScript keywords, 
 operators, and more. You can continue to use raw JavaScript inside ArnoldJS, and the `arnoldjs` 
 transpiler will convert ArnoldJS code into raw JavaScript.
 
-Installation:
+**Installation:**
 
 `npm install -g arnoldjs`
 
-Usage:
+**Usage:**
 
 `arnoldjs [input-file] [output-file]`
 
 The contents of `[output-file]` will be replaced by the transpiled contents of `[input-file]`.
 Input files conventionally use the `.ajs` extension, and output files conventionally use the `.js` extension, though
 any file extensions can be provided.
+
+ArnoldJS can also be used as a module in your code to be called programatically:
+
+`npm install --save arnoldjs`
+
+Usage:
+
+    var arnoldjs = require('arnoldjs');
+    var ajsProgram = "TERMINATED";
+    var jsProgram = arnoldjs.transpile(ajsProgram); //stores ";"
 
 Example Program
 ----------------
