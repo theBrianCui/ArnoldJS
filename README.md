@@ -136,7 +136,7 @@ The following phrases (case sensitive) on the left of the : are replaced by the 
 
 `HERE IS MY INVITATION` : `.push`
 
-`LIQUID METAL` : `.bind`
+`THE SUBJECT BEING COPIED` : `.bind`
 
 `LET ME TRY MINE` : `.call`
 
