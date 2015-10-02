@@ -2,7 +2,7 @@
   "author": "analytalica",
   "name": "arnoldjs",
   "description": "Inspired by ArnoldC, ArnoldJS adds syntactic sugar to JavaScript that lets you do less with more code.",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "repository": {
     "url": "https://github.com/analytalica/ArnoldJS"
   },
