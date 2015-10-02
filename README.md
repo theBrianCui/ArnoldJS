@@ -1,6 +1,12 @@
 ArnoldJS
 ==============
 
+    TALK TO THE HAND
+        GIVE THESE PEOPLE AIR
+            "Hello, World!"
+        ENOUGH TALK
+    TERMINATED
+
 Inspired by [ArnoldC](https://github.com/lhartikk/ArnoldC), ArnoldJS adds syntactic sugar to JavaScript
 that makes it less forgiving, more emotional, and even painful to write, allowing you to do less
 with more code. 
@@ -9,7 +15,8 @@ Quotes by Arnold Schwarzenegger act as intuitive replacements for common JavaScr
 operators, and more. You can continue to use raw JavaScript inside ArnoldJS, and the `arnoldjs` 
 transpiler will convert ArnoldJS code into raw JavaScript.
 
-##Installation
+Installation
+----------------
 
 ArnoldJS requires [Node.js and npm](https://nodejs.org/en/).
 
@@ -23,7 +30,8 @@ The contents of `[output-file]` will be replaced by the transpiled contents of `
 Input files conventionally use the `.ajs` extension, and output files conventionally use the `.js` extension, though
 any file extensions can be provided.
 
-##As a loadable module
+As a loadable module
+----------------
 
 ArnoldJS can also be used as a module in your code to be called programatically:
 
@@ -37,14 +45,6 @@ Usage:
 
 Example Program
 ----------------
-
-Hello, World! with ArnoldJS:
-
-    TALK TO THE HAND
-        GIVE THESE PEOPLE AIR
-            "Hello, World!"
-        ENOUGH TALK
-    TERMINATED
 
 An implementation of [FizzBuzz](http://c2.com/cgi/wiki?FizzBuzzTest) using a mix of ArnoldJS syntax and raw JavaScript:
 
